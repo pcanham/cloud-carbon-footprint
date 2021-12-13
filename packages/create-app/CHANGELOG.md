@@ -1,5 +1,13 @@
 # @cloud-carbon-footprint/create-app
 
+## 1.1.1
+
+### Patch Changes
+
+- 09f2c05f: Upgrades version of typescript to 4.5.3
+- 5d2fc42f: fixes linting error in create-app EmissionsSidePanel.tsx in create-app template.
+  please refer to this [commit](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/commit/784461d99c62e3e4e672425f9ec836de23116b45) for updates.
+
 ## 1.1.0
 
 ### Minor Changes
