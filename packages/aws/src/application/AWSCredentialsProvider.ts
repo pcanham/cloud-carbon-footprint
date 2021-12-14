@@ -36,6 +36,11 @@ export default class AWSCredentialsProvider {
           httpOptions: { timeout: 5000 },
           maxRetries: 10,
         })
+      case 'ECS-METADATA':
+        return new ECSCredentials({
+          httpOptions: { timeout: 5000 },
+          maxRetries: 10,
+        })
       default:
         return new Credentials(awsConfig.credentials)
     }
